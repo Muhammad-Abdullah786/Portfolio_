@@ -23,6 +23,7 @@ function App() {
           <Hero />
         </div>
 
+        <ComputersCanvas />
         <About />
         <Experience />
         <Tech />
@@ -34,7 +35,6 @@ function App() {
         </div>
         <EarthCanvas />
         <BallCanvas />
-        <ComputersCanvas />
       </div>
     </BrowserRouter>
   );
