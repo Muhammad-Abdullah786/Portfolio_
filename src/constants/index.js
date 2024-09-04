@@ -198,20 +198,20 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Password Generator",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Developed a password Generator with react ,tailwind, and some react Hooks optimized using useCallback hook to make sure there is no unnesassary rendering. and few more features. ",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Tailwind",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "React Hook",
                 color: "pink-text-gradient",
             },
         ],
@@ -219,41 +219,49 @@ const projects = [
         source_code_link: "https://github.com/",
     },
     {
-        name: "Job IT",
+        name: "Currency Project",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "In this Project i have understood props and Components usage and how to handle api Fundamentals, used tailwind for UI and responsiveness",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "api",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "props",
                 color: "pink-text-gradient",
+            },
+            {
+                name: "JS",
+                color: "yellow-text-gradient",
             },
         ],
         image: jobit,
         source_code_link: "https://github.com/",
     },
     {
-        name: "Trip Guide",
+        name: "Material UI",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "Developed a UI Design from Adobe xd and making it into a responsive webiste with many integration like image slider Media query in React, Main thing was How to use Materail UI Components to build a Production grade site",
         tags: [
             {
-                name: "nextjs",
+                name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "material UI",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "JS",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: `state managment`,
                 color: "pink-text-gradient",
             },
         ],
