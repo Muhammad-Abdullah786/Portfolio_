@@ -5,16 +5,28 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { Container } from "../hoc/index";
 
-const ServiceCard = ({index, title, icon}) => {
+const ServiceCard = ({ index, title, icon }) => {
   return (
-    <Tilt className="xs:w-[250px] w-full">{services.title}
-    <motion.div >
-      
-    </motion.div>
+    <Tilt className="xs:w-[250px] w-full">
+      {services.title}
+      <motion.div
+        variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+        className="w-full green-ping-gradient p-[1px] rounded-[20px] shadow-card"
+      >
+        <div
+          className="bg-tertiary rounded[20px] px-12  py-15 flex justify-evenly items-center flex-col min-h-[280px] border-2 border-white rounded-md border-spacing-[2px]"
+          options={{ max: 45, speed: 450, scale: 1 }}
+        >
+          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <h3 className="text-white text-[20px] font-bold text-center">
+            {title}
+          </h3>
+        </div>
+      </motion.div>
     </Tilt>
-    
-  )
+  );
 };
 
 const About = () => {
@@ -40,4 +52,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Container(About, "about");
