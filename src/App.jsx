@@ -22,17 +22,15 @@ function App() {
           <Navbar />
           <Hero />
         </div>
-
         <About />
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks />     no feedback cuz no one has hired you!!     */}
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
+          {/* <StarsCanvas /> */}
         </div>
-        {/* <ComputersCanvas /> */}
       </div>
     </BrowserRouter>
   );

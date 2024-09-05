@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { services } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn, slideIn } from "../utils/motion";
 import { Container } from "../hoc/index";
 
 const ServiceCard = ({ index, title, icon }) => {
@@ -32,13 +32,13 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variant={textVariant()}>
+      <motion.div variants={slideIn("left", "tween", 0.2, 0.75)}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
-        variants={fadeIn("right", "", "0.1", 1.5)}
+        variants={fadeIn("right", "", 0.1, 0.75)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         i am a dev
