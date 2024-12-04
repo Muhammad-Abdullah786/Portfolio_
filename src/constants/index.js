@@ -114,61 +114,76 @@ const technologies = [
     },
 ];
 
+// const experiences = [
+//     {
+//         title: "React.js Developer",
+//         company_name: "Starbucks",
+//         icon: starbucks,
+//         iconBg: "#383E56",
+//         date: "March 2020 - April 2021",
+//         points: [
+//             "Developing and maintaining web applications using React.js and other related technologies.",
+//             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//             "Implementing responsive design and ensuring cross-browser compatibility.",
+//             "Participating in code reviews and providing constructive feedback to other developers.",
+//         ],
+//     },
+//     {
+//         title: "React Native Developer",
+//         company_name: "Tesla",
+//         icon: tesla,
+//         iconBg: "#E6DEDD",
+//         date: "Jan 2021 - Feb 2022",
+//         points: [
+//             "Developing and maintaining web applications using React.js and other related technologies.",
+//             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//             "Implementing responsive design and ensuring cross-browser compatibility.",
+//             "Participating in code reviews and providing constructive feedback to other developers.",
+//         ],
+//     },
+//     {
+//         title: "Web Developer",
+//         company_name: "Shopify",
+//         icon: shopify,
+//         iconBg: "#383E56",
+//         date: "Jan 2022 - Jan 2023",
+//         points: [
+//             "Developing and maintaining web applications using React.js and other related technologies.",
+//             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//             "Implementing responsive design and ensuring cross-browser compatibility.",
+//             "Participating in code reviews and providing constructive feedback to other developers.",
+//         ],
+//     },
+//     {
+//         title: "Full stack Developer",
+//         company_name: "Meta",
+//         icon: meta,
+//         iconBg: "#E6DEDD",
+//         date: "Jan 2023 - Present",
+//         points: [
+//             "Developing and maintaining web applications using React.js and other related technologies.",
+//             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//             "Implementing responsive design and ensuring cross-browser compatibility.",
+//             "Participating in code reviews and providing constructive feedback to other developers.",
+//         ],
+//     },
+// ];
+
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Mern Stack Developer",
+        company_name: "Coderatory",
         icon: starbucks,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "September 2024 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Developing and maintaining web applications using React.js, Nextjs ,MongoDb and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-];
-
+]
 const testimonials = [
     {
         testimonial:
@@ -197,29 +212,29 @@ const testimonials = [
 ];
 
 const projects = [
+    // {
+    //     name: "Ecommerce",
+    //     description:
+    //         "Web-based platform that allows users to search,Their Products , and manage their cart , providing a minimal  and responsive design static site.",
+    //     tags: [
+    //         {
+    //             name: "react",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "Firebase",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "tailwind",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: carrent,
+    //     source_code_link: "https://github.com/",
+    // },
     {
-        name: "Car Rent",
-        description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
+        name: "Portfolio",
         description:
             "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
         tags: [
@@ -237,28 +252,57 @@ const projects = [
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Muhammad-Abdullah786/Portfolio_.git",
     },
     {
-        name: "Trip Guide",
+        name: "Fitness",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A comprehensive Fitness Static  Website that show users interactive design. I used tailwind css and vite react for creating this site",
         tags: [
             {
-                name: "nextjs",
+                name: "Reactjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "Tailwind",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "Javascript",
                 color: "pink-text-gradient",
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/Muhammad-Abdullah786/gym-site",
+    },
+    {
+        name: "Product Cards",
+        description:
+            "A dynamic web application that showcases product cards with full backend functionality. The platform allows administrators to seamlessly add, update, and remove product cards. Built with modern technologies, the project combines an interactive user interface with a robust backend for managing data efficiently.",
+        tags: [
+            {
+                name: "Next js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Tailwind",
+                color: "green-text-gradient",
+            },
+            {
+                name: "TypeScript",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "NodeJS",
+                color: "purple-text-gradient",
+            },
+            {
+                name: "Backend integration",
+                color: "green-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/Muhammad-Abdullah786/protfolio_front",
     },
 ];
 
