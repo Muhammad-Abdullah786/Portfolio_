@@ -15,13 +15,10 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    password,
+    gym,
+    product,
+    portfolio,
     threejs,
 } from "../assets";
 
@@ -50,11 +47,11 @@ const services = [
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "FrontEnd Developer",
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "UX/UI Designer",
         icon: creator,
     },
 ];
@@ -173,7 +170,7 @@ const experiences = [
     {
         title: "Mern Stack Developer",
         company_name: "Coderatory",
-        icon: starbucks,
+        icon: nodejs,
         iconBg: "#383E56",
         date: "September 2024 - Present",
         points: [
@@ -251,7 +248,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: portfolio,
         source_code_link: "https://github.com/Muhammad-Abdullah786/Portfolio_.git",
     },
     {
@@ -272,9 +269,31 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: gym,
         source_code_link: "https://github.com/Muhammad-Abdullah786/gym-site",
     },
+    {
+        name: "Password Generator",
+        description:
+            "A dynamic and engaging fitness-focused static website designed with an interactive user interface. Built using Tailwind CSS and Vite React, it showcases modern design principles and a seamless user experience",
+        tags: [
+            {
+                name: "Reactjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Tailwind",
+                color: "green-text-gradient",
+            },
+            {
+                name: "TypeScript",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: password,
+        source_code_link: "https://super-marshmallow-e524ed.netlify.app/",
+    },
+
     {
         name: "Product Cards",
         description:
@@ -301,7 +320,7 @@ const projects = [
                 color: "green-text-gradient",
             },
         ],
-        image: tripguide,
+        image: product,
         source_code_link: "https://github.com/Muhammad-Abdullah786/protfolio_front",
     },
 ];

@@ -29,8 +29,17 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import gym from "./gym.png";
+import product from "./product.png";
+import portfolio from "./portfolio.png";
+import password from "./pass.png"
+
 
 export {
+  password,
+  portfolio,
+  gym,
+  product,
   logo,
   backend,
   creator,
