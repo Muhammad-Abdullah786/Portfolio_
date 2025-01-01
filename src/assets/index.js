@@ -33,10 +33,12 @@ import gym from "./gym.png";
 import product from "./product.png";
 import portfolio from "./portfolio.png";
 import password from "./pass.png"
+import erp from './erp.png'
 
 
 export {
   password,
+  erp,
   portfolio,
   gym,
   product,

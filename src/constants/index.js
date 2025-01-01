@@ -20,6 +20,7 @@ import {
     product,
     portfolio,
     threejs,
+    erp
 } from "../assets";
 
 export const navLinks = [
@@ -271,6 +272,31 @@ const projects = [
         ],
         image: gym,
         source_code_link: "https://github.com/Muhammad-Abdullah786/gym-site",
+    },
+    {
+        name: "Shipment Conatainer ERP",
+        description:
+            "i have Develped a SEO Friendly Website that allow  users to book a container with payment too design. I used tailwind css and vite react for creating this site",
+        tags: [
+            {
+                name: "NExt",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Tailwind",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Tracking Map",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "Javascript",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: erp,
+        source_code_link: "https://github.com/Muhammad-Abdullah786/erp_frontend",
     },
     {
         name: "Password Generator",
